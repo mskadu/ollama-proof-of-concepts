@@ -1,8 +1,8 @@
 # Ollama Proof of Concepts (PoCs)
 
-This repo is a collection of code snippets I've put together to act as proof of concepts for my journey on teaching myself AI programming. Note that the code will be mostly (if not all) in Python.
+This repo is a collection of code snippets I've put together to act as proof of concepts for my journey on teaching myself AI programming. As the title indicates, the main focus is work done using Ollama - a nifty tool to run LLMs on your own machine. To keep the spotlight on exploring technical aspects behind AI, I am using Python and it's rich collection of packages.
 
-In most cases, I've annotated code with as much notes as feasible. This is as much as for the benefit of others, as it is for myself :)
+I am sharing these notes for everyone's benefits - as much as to serve as future reference for myself :)
 
 ## Pre-requisites
 The following will be necessary for all scripts in here - unless the local README specifies otherwise
