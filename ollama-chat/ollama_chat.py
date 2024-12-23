@@ -8,10 +8,11 @@ LLM_NAME = "llama3.2"  # The LLM to use
 CHAT_PROMPT = "Who is Linus Torvalds?"  # What I want to ask the LLM
 
 try:
+    SYSTEM_PROMPT = "You are a helpful assistant. Be as accurate and brief as possible."
     response: ChatResponse = chat(
         model=LLM_NAME,
         messages=[
-            {"role": "system", "content": "You are a helpful assistant. Be as accurate and brief as possible."},
+            {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": CHAT_PROMPT},
         ],
         # stream=False # No need - this is false by default
@@ -21,4 +22,4 @@ try:
     print(response["message"]["content"])
 
 except Exception as e:
-    print('There was an Error:', e.error)
+    print('There was an Error:', e)
