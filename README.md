@@ -20,4 +20,4 @@ I have created each sub-folder so that
 
 # Any questions? Or spot an error or typo? Or see an improvement?
 * Fork this repo and contribute it as a PR :)
-* OR simply raise a new issue on this repo with the details
+* OR simply raise a [new issue](https://github.com/mskadu/ollama-proof-of-concepts/issues/new) on this repo with the details
