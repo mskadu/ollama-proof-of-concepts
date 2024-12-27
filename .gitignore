@@ -1,2 +1,3 @@
 # Ignore all venv folders (they will always be named $WORKING_DIR/.env)
 **/.env/
+/.idea/
